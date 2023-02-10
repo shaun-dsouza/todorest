@@ -72,6 +72,11 @@ public class Todo {
 	
 	public Todo() {
 		// TODO Auto-generated constructor stub
+		id =1;
+		user = "Anil";
+		des = "testing now";
+		targetDate = new Date();
+		done = false;
 	}
 
 	public Todo(int id, String user, String des, Date targetDate, boolean done) {
